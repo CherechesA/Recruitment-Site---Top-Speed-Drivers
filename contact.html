@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style-contact.css">
+    <title>TopSpeedDrivers.ro-Contact</title>
+</head>
+
+<body>
+
+    <!-- Navbar-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">Top Speed Drivers</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links" id="home-page">Acasă</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="contact.html" class="navbar__links" id="services-page">Contact</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="contact.html" class="button" id="signup">Aplică!</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Main section-->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Top Speed Drivers <span>recrutează!</span></h1>
+            <p class="hero__description">Alătură-te echipei #Bringo sau #Glovo!</p>
+        </div>
+    </div>
+
+    <!--Form section-->
+    <section>
+        <div class="form__container">
+            <h1 class="text-h1">APLICĂ!</h1>
+            <div class="index-form">
+                <form action="https://formsubmit.co/chereches_andr3i@yahoo.com" method="POST">
+                    <div class="col">
+                        <input type="text" id="from-name" class="form-control" placeholder="Nume" aria-label="Nume">
+                    </div>
+                    <div class="col">
+                        <input type="text" id="from-surname" class="form-control" placeholder="Prenume"
+                            aria-label="Prenume">
+                    </div>
+                    <div class="col">
+                        <input type="email" id="e-mail" class="form-control" placeholder="E-mail" aria-label="E-mail">
+                    </div>
+                    <div class="col">
+                        <input type="text" id="number" class="form-control" placeholder="Telefon" aria-label="Telefon">
+                    </div>
+                    <div class="col">
+                        <input type="text" id="disponibilitate" class="form-control"
+                            placeholder="Disponibilitate: part-time/full-time" aria-label="Disponibilitate">
+                    </div>
+
+                    <div class="col">
+                        <input type="text" id="vehicul" class="form-control"
+                            placeholder="Vehicul: mașină, bicicletă, moped" aria-label="Vehicul">
+                    </div>
+
+                    <button onclick="sendEmail()" type="submit">Trimite!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <section>
+        <div class="footer__container">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo">TOP SPEED DRIVERS</a>
+            </div>
+            <p class="website__rights">© TOP SPEED DRIVERS 2022. All rights reserved</p>
+
+        </div>
+    </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
