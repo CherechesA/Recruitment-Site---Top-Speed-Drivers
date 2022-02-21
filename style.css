@@ -31,7 +31,7 @@
   
   #navbar__logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to right, #fff 0%, #313131 50%,#fff 100%);
+    background-image: linear-gradient(to right, #fff 0%, #7c7777 50%,#fff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -215,37 +215,22 @@
       font-size: 80px;
       margin-bottom: 24px;
       color: #ff8177;
-      background: #ee0979; /* fallback for old browsers */
-      background: -webkit-linear-gradient(
-        to right,
-        #7a7575,
-        #000
-      ); /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(
-        to top,
-        #7a7575,
-        #000
-      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: #000; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #000 0%, #7c7777 50%,#000 100%); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #000 0%, #7c7777 50%,#000 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       background-size: 100%;
       -webkit-background-clip: text;
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
-    
-    
-  }.hero__description {
+  }
+  .hero__description {
     font-size: 40px;
-    background: #ee0979; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-        to top,
-      #7a7575,
-        #000
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-        to top,
-      #7a7575,
-        #000
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000; /* fallback for old browsers */
+    background: -webkitlinear-gradient(to right, #000 0%, #7c7777 50%,#000 100%); 
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000 0%, #7c7777 50%,#000 100%);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -294,8 +279,8 @@
   
   .main__content h1 {
     font-size: 2rem;
-    background-color: #fe3b6f;
-    background-image: linear-gradient(to right, #fff 0%, #313131 50%,#fff 100%);
+    background-color: #f3f3f3;
+    background-image: linear-gradient(to right, #fff 0%, #7c7777 50%,#fff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -307,17 +292,9 @@
   
   .main__content h2 {
     font-size: 2rem;
-    background: #ff8177; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #FFF,
-      #313131
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #Fff,
-      #313131
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #f3f3f3; /* fallback for old browsers */
+    background: -webkitlinear-gradient(to right, #fff 0%, #7c7777 50%,#fff 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff 0%, #7c7777 50%,#fff 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -383,10 +360,11 @@
     width: 500px;
     border-radius: 4px;
     display: flex;
+   box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #fff 0%, #252323 50%,#000 100%);
+    background-image: linear-gradient(to right, #fff 0%, #7c7777 50%,#fff 100%);
   }
   
   .fa-layer-group,
@@ -395,9 +373,9 @@
   }
   
   #card-2 {
-    background: #ff512f;
-    background: -webkit-linear-gradient(to right, #fff 0%, #252323 50%,#000 100%);
-    background: linear-gradient(to right, #fff 0%, #252323 50%,#000 100%);
+    background: #f3f3f3;
+    background: -webkit-linear-gradient(to right, #fff 0%, #7c7777 50%,#fff 100%);
+    background: linear-gradient(to right, #fff 0%, #7c7777 50%,#fff 100%);
   }
   
   /* Mobile Responsive */
@@ -483,8 +461,8 @@
 }
 
 .services h1 {
-  background-color: #ff8177;
-  background-image: linear-gradient(to right, #fff 0%, #252323 50%,#fff 100%);
+  background-color: #f3f3f3;
+  /*background-image:linear-gradient(to right, #fff 0%, #252323 50%,#fff 100%);*/;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -492,6 +470,7 @@
   -moz-text-fill-color: transparent;
   margin-bottom: 5rem;
   font-size: 2rem;
+  
 }
 
 .services__wrapper {
