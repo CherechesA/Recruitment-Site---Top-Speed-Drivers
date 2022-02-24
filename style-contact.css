@@ -324,8 +324,6 @@ form button {
   position: relative;
   transition: all 0.35s;
   outline: none;
-  z-index: 2;
-  color: #fff;
 }
 
 form button:after {
@@ -339,10 +337,15 @@ form button:after {
   transition: all 0.35s;
   border-radius: 4px;
 }
+form button a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
 
 form button:hover {
   color: #fff;
-  background: #ff1ead;
 }
 
 form button:hover:after {
