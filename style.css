@@ -488,12 +488,30 @@
   color: #000;
   background-image:linear-gradient(
     -225deg,
-    #afafb1 0%,
-    #8c8d8f 29%,
-    #737373 67%,
-    #6A7885 100%
+    #ffbe3d 0%,
+    #ff953d 29%,
+    #ff543d 67%,
+    #f20039 100%
   );
   transition: 0.3s ease-in;
+}
+.services__card:nth-child(2){
+  background-image:linear-gradient(
+    -225deg,
+    #f20039 0%,
+    #ff543d 29%,
+    #ff953d 67%,
+    #ffbe3d 100%
+  );
+}
+.services__card:nth-child(4){
+  background-image:linear-gradient(
+    -225deg,
+    #f20039 0%,
+    #ff543d 29%,
+    #ff953d 67%,
+    #ffbe3d 100%
+  );
 }
 
 .services__card h2 {
