@@ -33,6 +33,7 @@ const highlightMenu = () => {
     servicesMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
+    
   }
 
   if ((elem && window.innerWIdth < 960 && scrollPos < 600) || elem) {

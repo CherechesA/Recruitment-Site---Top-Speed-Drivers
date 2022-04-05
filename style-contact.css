@@ -30,8 +30,7 @@
 }
 
 #navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to right, #fff 0%, #313131 50%, #fff 100%);
+  background-color: #fff;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -85,8 +84,8 @@
   outline: none;
   border-radius: 4px;
   background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #fcb045);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #fcb045);
   color: #fff;
   transition: all 0.3s ease;
 }
@@ -214,18 +213,7 @@
 .hero__heading {
   font-size: 80px;
   margin-bottom: 24px;
-  color: #ff8177;
-  background: #ee0979; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #7a7575,
-    #000
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #7a7575,
-    #000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -234,17 +222,7 @@
 }
 .hero__description {
   font-size: 40px;
-  background: #ee0979; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #7a7575,
-    #000
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #7a7575,
-    #000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000; 
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -283,9 +261,8 @@
   margin-bottom: 20px;
 }
 .text-h1 {
-  font-size: 2rem;
-  background-color: #fe3b6f;
-  background-image: linear-gradient(to right, #fff 0%, #7c7777 50%, #fff 100%);
+  font-size: 3rem;
+  background-color: #fff;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -314,12 +291,12 @@ form button {
   margin-left: 40px;
   font-size: 1.8rem;
   background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #fcb045);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #fcb045);
   padding: 20px 60px;
   border: none;
   border-radius: 4px;
-  margin-top: 1.2rem;
+  margin-top: 3rem;
   cursor: pointer;
   position: relative;
   transition: all 0.35s;
