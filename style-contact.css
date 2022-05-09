@@ -192,7 +192,7 @@
 /*Main Section*/
 
 .hero {
-  background-image: url(img/animation.gif);
+  background-color: #131313;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
